@@ -10,9 +10,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
+      - uses: Fishskin713/github-activity-readme@main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
         with:
           GH_USERNAME: "Fishskin713"
           COMMIT_MSG: "Specify a custom commit message"
