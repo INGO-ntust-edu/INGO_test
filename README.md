@@ -2,4 +2,6 @@
 update and testing the automation
 api structure decided
 
- `` Recent activities
+### Recent activities
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
