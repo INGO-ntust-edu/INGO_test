@@ -11,10 +11,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.SECRET_TOKEN }}
+          token: ${{ secrets.REPO_TOKEN }}
       
       - name: GitHub README Activity Updater
         uses: ggofri/github-activity-updater@v1.1.0
         with:
-          github-token: ${{ secrets.SECRET_TOKEN }}
+          github-token: ${{ secrets.REPO_TOKEN }}
           username: "Fishskin713"
