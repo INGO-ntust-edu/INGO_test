@@ -13,8 +13,3 @@ jobs:
       - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
-        with:
-          GH_USERNAME: "INGO-ntust-edu"
-          COMMIT_MSG: "Specify a custom commit message"
-          MAX_LINES: 10
-          COMMIT_NAME: GitHub Activity Readme
