@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.REPO_TOKEN }}
       
       - name: GitHub README Activity Updater
         uses: ggofri/github-activity-updater@v1.1.0
